@@ -1,0 +1,10 @@
+.env 
+
+*.pyc
+__pycache__/ 
+
+.elasticbeanstalk
+
+aws-elastic-beanstalk-cli-setup
+
+sources/
