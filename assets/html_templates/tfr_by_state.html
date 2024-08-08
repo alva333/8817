@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 400px;
+            padding: 5px;
+            background-color:whitesmoke;
+        }
+        thead tr {
+            background-color:cornflowerblue;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table class="wikitable sortable jquery-tablesorter">
+
+    <thead><tr>
+    <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">State<br>federal district<br> or territory<br></th>
+    <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">TFR<br>2019<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></th>
+    <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">TFR<br>2020<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></th>
+    <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">TFR<br>2021<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup></th>
+    <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">TFR<br>2022<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup>
+    </th></tr></thead><tbody>
+    <tr bgcolor="#f5f5d3">
+    <td><i><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/23px-Flag_of_Guam.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/35px-Flag_of_Guam.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/46px-Flag_of_Guam.svg.png 2x" data-file-width="738" data-file-height="396"></span></span>&nbsp;</span><a href="/wiki/Guam" title="Guam">Guam</a></i></td>
+    <td>2.74</td>
+    <td>2.64</td>
+    <td>2.36</td>
+    <td>2.26
+    </td></tr>
+    <tr bgcolor="#f5f5d3">
+    <td><i><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/23px-Flag_of_American_Samoa.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/35px-Flag_of_American_Samoa.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_American_Samoa.svg/46px-Flag_of_American_Samoa.svg.png 2x" data-file-width="1000" data-file-height="500"></span></span>&nbsp;</span><a href="/wiki/American_Samoa" title="American Samoa">American Samoa</a></i></td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/23px-Flag_of_South_Dakota.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/35px-Flag_of_South_Dakota.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_South_Dakota.svg/46px-Flag_of_South_Dakota.svg.png 2x" data-file-width="720" data-file-height="450"></span></span>&nbsp;</span><a href="/wiki/South_Dakota" title="South Dakota">South Dakota</a></td>
+    <td>2.08</td>
+    <td>1.98</td>
+    <td>2.07</td>
+    <td>2.01
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/23px-Flag_of_Nebraska.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/35px-Flag_of_Nebraska.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Flag_of_Nebraska.svg/46px-Flag_of_Nebraska.svg.png 2x" data-file-width="600" data-file-height="360"></span></span>&nbsp;</span><a href="/wiki/Nebraska" title="Nebraska">Nebraska</a></td>
+    <td>1.97</td>
+    <td>1.94</td>
+    <td>1.95</td>
+    <td>1.94
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/21px-Flag_of_Alaska.svg.png" decoding="async" width="21" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/33px-Flag_of_Alaska.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/43px-Flag_of_Alaska.svg.png 2x" data-file-width="1416" data-file-height="1000"></span></span>&nbsp;</span><a href="/wiki/Alaska" title="Alaska">Alaska</a></td>
+    <td>1.94</td>
+    <td>1.89</td>
+    <td>1.89</td>
+    <td>1.89
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/23px-Flag_of_Louisiana.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/35px-Flag_of_Louisiana.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_Louisiana.svg/46px-Flag_of_Louisiana.svg.png 2x" data-file-width="7040" data-file-height="4556"></span></span>&nbsp;</span><a href="/wiki/Louisiana" title="Louisiana">Louisiana</a></td>
+    <td>1.86</td>
+    <td>1.83</td>
+    <td>1.87</td>
+    <td>1.85
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/23px-Flag_of_Utah.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/35px-Flag_of_Utah.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/46px-Flag_of_Utah.svg.png 2x" data-file-width="720" data-file-height="432"></span></span>&nbsp;</span><a href="/wiki/Utah" title="Utah">Utah</a></td>
+    <td>1.99</td>
+    <td>1.92</td>
+    <td>1.92</td>
+    <td>1.85
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Iowa.svg/23px-Flag_of_Iowa.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Iowa.svg/35px-Flag_of_Iowa.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Iowa.svg/45px-Flag_of_Iowa.svg.png 2x" data-file-width="714" data-file-height="477"></span></span>&nbsp;</span><a href="/wiki/Iowa" title="Iowa">Iowa</a></td>
+    <td>1.90</td>
+    <td>1.82</td>
+    <td>1.85</td>
+    <td>1.84
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_North_Dakota.svg/20px-Flag_of_North_Dakota.svg.png" decoding="async" width="20" height="16" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_North_Dakota.svg/31px-Flag_of_North_Dakota.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Flag_of_North_Dakota.svg/41px-Flag_of_North_Dakota.svg.png 2x" data-file-width="1169" data-file-height="921"></span></span>&nbsp;</span><a href="/wiki/North_Dakota" title="North Dakota">North Dakota</a></td>
+    <td>2.00</td>
+    <td>1.93</td>
+    <td>1.94</td>
+    <td>1.84
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/23px-Flag_of_Texas.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/35px-Flag_of_Texas.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/45px-Flag_of_Texas.svg.png 2x" data-file-width="900" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Texas" title="Texas">Texas</a></td>
+    <td>1.85</td>
+    <td>1.78</td>
+    <td>1.81</td>
+    <td>1.84
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/23px-Flag_of_Kansas.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/35px-Flag_of_Kansas.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Kansas.svg/46px-Flag_of_Kansas.svg.png 2x" data-file-width="500" data-file-height="300"></span></span>&nbsp;</span><a href="/wiki/Kansas" title="Kansas">Kansas</a></td>
+    <td>1.87</td>
+    <td>1.82</td>
+    <td>1.84</td>
+    <td>1.83
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Kentucky.svg/23px-Flag_of_Kentucky.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Kentucky.svg/35px-Flag_of_Kentucky.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Flag_of_Kentucky.svg/46px-Flag_of_Kentucky.svg.png 2x" data-file-width="950" data-file-height="500"></span></span>&nbsp;</span><a href="/wiki/Kentucky" title="Kentucky">Kentucky</a></td>
+    <td>1.85</td>
+    <td>1.80</td>
+    <td>1.81</td>
+    <td>1.82
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/19px-Flag_of_Idaho.svg.png" decoding="async" width="19" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/29px-Flag_of_Idaho.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_Idaho.svg/38px-Flag_of_Idaho.svg.png 2x" data-file-width="3168" data-file-height="2496"></span></span>&nbsp;</span><a href="/wiki/Idaho" title="Idaho">Idaho</a></td>
+    <td>1.92</td>
+    <td>1.84</td>
+    <td>1.85</td>
+    <td>1.81
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/23px-Flag_of_Oklahoma.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/35px-Flag_of_Oklahoma.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Flag_of_Oklahoma.svg/45px-Flag_of_Oklahoma.svg.png 2x" data-file-width="675" data-file-height="450"></span></span>&nbsp;</span><a href="/wiki/Oklahoma" title="Oklahoma">Oklahoma</a></td>
+    <td>1.86</td>
+    <td>1.79</td>
+    <td>1.83</td>
+    <td>1.80
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/23px-Flag_of_Arkansas.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/35px-Flag_of_Arkansas.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arkansas.svg/45px-Flag_of_Arkansas.svg.png 2x" data-file-width="450" data-file-height="300"></span></span>&nbsp;</span><a href="/wiki/Arkansas" title="Arkansas">Arkansas</a></td>
+    <td>1.86</td>
+    <td>1.79</td>
+    <td>1.84</td>
+    <td>1.79
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/23px-Flag_of_Mississippi.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/35px-Flag_of_Mississippi.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/42/Flag_of_Mississippi.svg/46px-Flag_of_Mississippi.svg.png 2x" data-file-width="1200" data-file-height="720"></span></span>&nbsp;</span><a href="/wiki/Mississippi" title="Mississippi">Mississippi</a></td>
+    <td>1.85</td>
+    <td>1.81</td>
+    <td>1.82</td>
+    <td>1.79
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/23px-Flag_of_Indiana.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/35px-Flag_of_Indiana.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flag_of_Indiana.svg/45px-Flag_of_Indiana.svg.png 2x" data-file-width="750" data-file-height="500"></span></span>&nbsp;</span><a href="/wiki/Indiana" title="Indiana">Indiana</a></td>
+    <td>1.82</td>
+    <td>1.77</td>
+    <td>1.79</td>
+    <td>1.78
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/23px-Flag_of_Minnesota.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/35px-Flag_of_Minnesota.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Minnesota.svg/46px-Flag_of_Minnesota.svg.png 2x" data-file-width="1000" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Minnesota" title="Minnesota">Minnesota</a></td>
+    <td>1.79</td>
+    <td>1.72</td>
+    <td>1.75</td>
+    <td>1.75
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/23px-Flag_of_New_Jersey.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/35px-Flag_of_New_Jersey.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_New_Jersey.svg/46px-Flag_of_New_Jersey.svg.png 2x" data-file-width="512" data-file-height="308"></span></span>&nbsp;</span><a href="/wiki/New_Jersey" title="New Jersey">New Jersey</a></td>
+    <td>1.77</td>
+    <td>1.74</td>
+    <td>1.72</td>
+    <td>1.75
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/23px-Flag_of_Alabama.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/35px-Flag_of_Alabama.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Alabama.svg/45px-Flag_of_Alabama.svg.png 2x" data-file-width="600" data-file-height="400"></span></span>&nbsp;</span><a href="/wiki/Alabama" title="Alabama">Alabama</a></td>
+    <td>1.81</td>
+    <td>1.78</td>
+    <td>1.77</td>
+    <td>1.74
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/23px-Flag_of_Hawaii.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/35px-Flag_of_Hawaii.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Flag_of_Hawaii.svg/46px-Flag_of_Hawaii.svg.png 2x" data-file-width="1200" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Hawaii" title="Hawaii">Hawaii</a></td>
+    <td>1.85</td>
+    <td>1.77</td>
+    <td>1.73</td>
+    <td>1.74
+    </td></tr>
+    <tr bgcolor="#f5f5d3">
+    <td><i><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/23px-Flag_of_the_Northern_Mariana_Islands.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/35px-Flag_of_the_Northern_Mariana_Islands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Flag_of_the_Northern_Mariana_Islands.svg/46px-Flag_of_the_Northern_Mariana_Islands.svg.png 2x" data-file-width="1100" data-file-height="550"></span></span>&nbsp;</span><a href="/wiki/Northern_Mariana_Islands" title="Northern Mariana Islands">Northern Mariana Is.</a></i></td>
+    <td>2.64</td>
+    <td>2.41</td>
+    <td>2.20</td>
+    <td>1.73
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/23px-Flag_of_Tennessee.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/35px-Flag_of_Tennessee.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Tennessee.svg/46px-Flag_of_Tennessee.svg.png 2x" data-file-width="1000" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Tennessee" title="Tennessee">Tennessee</a></td>
+    <td>1.76</td>
+    <td>1.70</td>
+    <td>1.75</td>
+    <td>1.73
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/23px-Flag_of_Delaware.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/35px-Flag_of_Delaware.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Flag_of_Delaware.svg/45px-Flag_of_Delaware.svg.png 2x" data-file-width="600" data-file-height="400"></span></span>&nbsp;</span><a href="/wiki/Delaware" title="Delaware">Delaware</a></td>
+    <td>1.71</td>
+    <td>1.67</td>
+    <td>1.68</td>
+    <td>1.71
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Missouri.svg/23px-Flag_of_Missouri.svg.png" decoding="async" width="23" height="13" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Missouri.svg/35px-Flag_of_Missouri.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Flag_of_Missouri.svg/46px-Flag_of_Missouri.svg.png 2x" data-file-width="2400" data-file-height="1400"></span></span>&nbsp;</span><a href="/wiki/Missouri" title="Missouri">Missouri</a></td>
+    <td>1.79</td>
+    <td>1.72</td>
+    <td>1.73</td>
+    <td>1.71
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/23px-Flag_of_North_Carolina.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/35px-Flag_of_North_Carolina.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Flag_of_North_Carolina.svg/45px-Flag_of_North_Carolina.svg.png 2x" data-file-width="750" data-file-height="500"></span></span>&nbsp;</span><a href="/wiki/North_Carolina" title="North Carolina">North Carolina</a></td>
+    <td>1.71</td>
+    <td>1.66</td>
+    <td>1.73</td>
+    <td>1.71
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Ohio.svg/25px-Flag_of_Ohio.svg.png" decoding="async" width="25" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Ohio.svg/38px-Flag_of_Ohio.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Ohio.svg/50px-Flag_of_Ohio.svg.png 2x" data-file-width="520" data-file-height="320"></span></span>&nbsp;</span><a href="/wiki/Ohio" title="Ohio">Ohio</a></td>
+    <td>1.78</td>
+    <td>1.71</td>
+    <td>1.72</td>
+    <td>1.70
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/23px-Flag_of_South_Carolina.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/35px-Flag_of_South_Carolina.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/69/Flag_of_South_Carolina.svg/45px-Flag_of_South_Carolina.svg.png 2x" data-file-width="750" data-file-height="500"></span></span>&nbsp;</span><a href="/wiki/South_Carolina" title="South Carolina">South Carolina</a></td>
+    <td>1.70</td>
+    <td>1.64</td>
+    <td>1.71</td>
+    <td>1.70
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/23px-Flag_of_Maryland.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/35px-Flag_of_Maryland.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Maryland.svg/45px-Flag_of_Maryland.svg.png 2x" data-file-width="750" data-file-height="500"></span></span>&nbsp;</span><a href="/wiki/Maryland" title="Maryland">Maryland</a></td>
+    <td>1.73</td>
+    <td>1.69</td>
+    <td>1.66</td>
+    <td>1.69
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/22px-Flag_of_Wyoming.svg.png" decoding="async" width="22" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/33px-Flag_of_Wyoming.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/43px-Flag_of_Wyoming.svg.png 2x" data-file-width="1000" data-file-height="700"></span></span>&nbsp;</span><a href="/wiki/Wyoming" title="Wyoming">Wyoming</a></td>
+    <td>1.80</td>
+    <td>1.69</td>
+    <td>1.75</td>
+    <td>1.69
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/23px-Flag_of_the_State_of_Georgia.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/35px-Flag_of_the_State_of_Georgia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_the_State_of_Georgia.svg/46px-Flag_of_the_State_of_Georgia.svg.png 2x" data-file-width="960" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Georgia_(U.S._state)" title="Georgia (U.S. state)">Georgia</a></td>
+    <td>1.72</td>
+    <td>1.65</td>
+    <td>1.67</td>
+    <td>1.67
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/23px-Flag_of_Virginia.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/35px-Flag_of_Virginia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/Flag_of_Virginia.svg/45px-Flag_of_Virginia.svg.png 2x" data-file-width="512" data-file-height="341"></span></span>&nbsp;</span><a href="/wiki/Virginia" title="Virginia">Virginia</a></td>
+    <td>1.69</td>
+    <td>1.64</td>
+    <td>1.66</td>
+    <td>1.65
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Wisconsin.svg/23px-Flag_of_Wisconsin.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Wisconsin.svg/35px-Flag_of_Wisconsin.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_Wisconsin.svg/45px-Flag_of_Wisconsin.svg.png 2x" data-file-width="300" data-file-height="200"></span></span>&nbsp;</span><a href="/wiki/Wisconsin" title="Wisconsin">Wisconsin</a></td>
+    <td>1.73</td>
+    <td>1.66</td>
+    <td>1.69</td>
+    <td>1.65
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/23px-Flag_of_Florida.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/35px-Flag_of_Florida.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Florida.svg/45px-Flag_of_Florida.svg.png 2x" data-file-width="300" data-file-height="200"></span></span>&nbsp;</span><a href="/wiki/Florida" title="Florida">Florida</a></td>
+    <td>1.66</td>
+    <td>1.57</td>
+    <td>1.62</td>
+    <td>1.64
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/23px-Flag_of_Arizona.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/35px-Flag_of_Arizona.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Arizona.svg/45px-Flag_of_Arizona.svg.png 2x" data-file-width="900" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Arizona" title="Arizona">Arizona</a></td>
+    <td>1.67</td>
+    <td>1.58</td>
+    <td>1.64</td>
+    <td>1.62
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_West_Virginia.svg/23px-Flag_of_West_Virginia.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_West_Virginia.svg/35px-Flag_of_West_Virginia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/22/Flag_of_West_Virginia.svg/46px-Flag_of_West_Virginia.svg.png 2x" data-file-width="760" data-file-height="400"></span></span>&nbsp;</span><a href="/wiki/West_Virginia" title="West Virginia">West Virginia</a></td>
+    <td>1.72</td>
+    <td>1.65</td>
+    <td>1.65</td>
+    <td>1.62
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/23px-Flag_of_Michigan.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/35px-Flag_of_Michigan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Michigan.svg/45px-Flag_of_Michigan.svg.png 2x" data-file-width="685" data-file-height="457"></span></span>&nbsp;</span><a href="/wiki/Michigan" title="Michigan">Michigan</a></td>
+    <td>1.69</td>
+    <td>1.63</td>
+    <td>1.64</td>
+    <td>1.60
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_New_Mexico.svg/23px-Flag_of_New_Mexico.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_New_Mexico.svg/35px-Flag_of_New_Mexico.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_New_Mexico.svg/45px-Flag_of_New_Mexico.svg.png 2x" data-file-width="1800" data-file-height="1200"></span></span>&nbsp;</span><a href="/wiki/New_Mexico" title="New Mexico">New Mexico</a></td>
+    <td>1.69</td>
+    <td>1.61</td>
+    <td>1.58</td>
+    <td>1.59
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/23px-Flag_of_Montana.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/35px-Flag_of_Montana.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_Montana.svg/45px-Flag_of_Montana.svg.png 2x" data-file-width="768" data-file-height="512"></span></span>&nbsp;</span><a href="/wiki/Montana" title="Montana">Montana</a></td>
+    <td>1.66</td>
+    <td>1.60</td>
+    <td>1.62</td>
+    <td>1.58
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/21px-Flag_of_Pennsylvania.svg.png" decoding="async" width="21" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/32px-Flag_of_Pennsylvania.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Pennsylvania.svg/41px-Flag_of_Pennsylvania.svg.png 2x" data-file-width="740" data-file-height="540"></span></span>&nbsp;</span><a href="/wiki/Pennsylvania" title="Pennsylvania">Pennsylvania</a></td>
+    <td>1.65</td>
+    <td>1.61</td>
+    <td>1.61</td>
+    <td>1.58
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/23px-Flag_of_Nevada.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/35px-Flag_of_Nevada.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_Nevada.svg/45px-Flag_of_Nevada.svg.png 2x" data-file-width="600" data-file-height="400"></span></span>&nbsp;</span><a href="/wiki/Nevada" title="Nevada">Nevada</a></td>
+    <td>1.70</td>
+    <td>1.60</td>
+    <td>1.61</td>
+    <td>1.56
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/23px-Flag_of_New_York.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/35px-Flag_of_New_York.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/46px-Flag_of_New_York.svg.png 2x" data-file-width="900" data-file-height="450"></span></span>&nbsp;</span><a href="/wiki/New_York_(state)" title="New York (state)">New York</a></td>
+    <td>1.64</td>
+    <td>1.57</td>
+    <td>1.56</td>
+    <td>1.56
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Connecticut.svg/19px-Flag_of_Connecticut.svg.png" decoding="async" width="19" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Connecticut.svg/29px-Flag_of_Connecticut.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_Connecticut.svg/38px-Flag_of_Connecticut.svg.png 2x" data-file-width="330" data-file-height="260"></span></span>&nbsp;</span><a href="/wiki/Connecticut" title="Connecticut">Connecticut</a></td>
+    <td>1.54</td>
+    <td>1.51</td>
+    <td>1.58</td>
+    <td>1.55
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/23px-Flag_of_California.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/35px-Flag_of_California.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/45px-Flag_of_California.svg.png 2x" data-file-width="900" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/California" title="California">California</a></td>
+    <td>1.60</td>
+    <td>1.52</td>
+    <td>1.54</td>
+    <td>1.54
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/23px-Flag_of_Illinois.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/35px-Flag_of_Illinois.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/46px-Flag_of_Illinois.svg.png 2x" data-file-width="500" data-file-height="300"></span></span>&nbsp;</span><a href="/wiki/Illinois" title="Illinois">Illinois</a></td>
+    <td>1.65</td>
+    <td>1.59</td>
+    <td>1.57</td>
+    <td>1.54
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/23px-Flag_of_Washington.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/35px-Flag_of_Washington.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Washington.svg/46px-Flag_of_Washington.svg.png 2x" data-file-width="1106" data-file-height="658"></span></span>&nbsp;</span><a href="/wiki/Washington_(state)" title="Washington (state)">Washington</a></td>
+    <td>1.60</td>
+    <td>1.54</td>
+    <td>1.56</td>
+    <td>1.53
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/23px-Flag_of_Colorado.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/35px-Flag_of_Colorado.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flag_of_Colorado.svg/45px-Flag_of_Colorado.svg.png 2x" data-file-width="1800" data-file-height="1200"></span></span>&nbsp;</span><a href="/wiki/Colorado" title="Colorado">Colorado</a></td>
+    <td>1.53</td>
+    <td>1.48</td>
+    <td>1.52</td>
+    <td>1.49
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Maine.svg/19px-Flag_of_Maine.svg.png" decoding="async" width="19" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Maine.svg/29px-Flag_of_Maine.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Maine.svg/38px-Flag_of_Maine.svg.png 2x" data-file-width="6336" data-file-height="4992"></span></span>&nbsp;</span><a href="/wiki/Maine" title="Maine">Maine</a></td>
+    <td>1.50</td>
+    <td>1.45</td>
+    <td>1.48</td>
+    <td>1.47
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/23px-Flag_of_Massachusetts.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/35px-Flag_of_Massachusetts.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Massachusetts.svg/46px-Flag_of_Massachusetts.svg.png 2x" data-file-width="1500" data-file-height="900"></span></span>&nbsp;</span><a href="/wiki/Massachusetts" title="Massachusetts">Massachusetts</a></td>
+    <td>1.45</td>
+    <td>1.39</td>
+    <td>1.43</td>
+    <td>1.44
+    </td></tr>
+    <tr bgcolor="#f5f5d3">
+    <td><i><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/23px-Flag_of_the_United_States_Virgin_Islands.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/35px-Flag_of_the_United_States_Virgin_Islands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_the_United_States_Virgin_Islands.svg/45px-Flag_of_the_United_States_Virgin_Islands.svg.png 2x" data-file-width="1275" data-file-height="850"></span></span>&nbsp;</span><a href="/wiki/United_States_Virgin_Islands" title="United States Virgin Islands">U.S. Virgin Islands</a></i></td>
+    <td>--</td>
+    <td>1.39</td>
+    <td>1.46</td>
+    <td>1.43
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/23px-Flag_of_New_Hampshire.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/35px-Flag_of_New_Hampshire.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_New_Hampshire.svg/45px-Flag_of_New_Hampshire.svg.png 2x" data-file-width="660" data-file-height="440"></span></span>&nbsp;</span><a href="/wiki/New_Hampshire" title="New Hampshire">New Hampshire</a></td>
+    <td>1.43</td>
+    <td>1.41</td>
+    <td>1.48</td>
+    <td>1.41
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/19px-Flag_of_Rhode_Island.svg.png" decoding="async" width="19" height="17" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/30px-Flag_of_Rhode_Island.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Rhode_Island.svg/39px-Flag_of_Rhode_Island.svg.png 2x" data-file-width="660" data-file-height="580"></span></span>&nbsp;</span><a href="/wiki/Rhode_Island" title="Rhode Island">Rhode Island</a></td>
+    <td>1.43</td>
+    <td>1.43</td>
+    <td>1.42</td>
+    <td>1.40
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Oregon.svg/23px-Flag_of_Oregon.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Oregon.svg/35px-Flag_of_Oregon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Oregon.svg/45px-Flag_of_Oregon.svg.png 2x" data-file-width="768" data-file-height="512"></span></span>&nbsp;</span><a href="/wiki/Oregon" title="Oregon">Oregon</a></td>
+    <td>1.47</td>
+    <td>1.39</td>
+    <td>1.43</td>
+    <td>1.39
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Vermont.svg/23px-Flag_of_Vermont.svg.png" decoding="async" width="23" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Vermont.svg/35px-Flag_of_Vermont.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Vermont.svg/46px-Flag_of_Vermont.svg.png 2x" data-file-width="800" data-file-height="480"></span></span>&nbsp;</span><a href="/wiki/Vermont" title="Vermont">Vermont</a></td>
+    <td>1.43</td>
+    <td>1.36</td>
+    <td>1.37</td>
+    <td>1.35
+    </td></tr>
+    <tr>
+    <td><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/23px-Flag_of_Washington%2C_D.C.svg.png" decoding="async" width="23" height="12" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/35px-Flag_of_Washington%2C_D.C.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Washington%2C_D.C.svg/46px-Flag_of_Washington%2C_D.C.svg.png 2x" data-file-width="2000" data-file-height="1000"></span></span>&nbsp;</span><a href="/wiki/Washington,_D.C." title="Washington, D.C.">District of Columbia</a></td>
+    <td>1.31</td>
+    <td>1.27</td>
+    <td>1.34</td>
+    <td>1.24
+    </td></tr>
+    <tr bgcolor="#f5f5d3">
+    <td><i><span class="flagicon"><span class="mw-image-border" typeof="mw:File"><span><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/23px-Flag_of_Puerto_Rico.svg.png" decoding="async" width="23" height="15" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/35px-Flag_of_Puerto_Rico.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/45px-Flag_of_Puerto_Rico.svg.png 2x" data-file-width="900" data-file-height="600"></span></span>&nbsp;</span><a href="/wiki/Puerto_Rico" title="Puerto Rico">Puerto Rico</a></i></td>
+    <td>0.98</td>
+    <td>0.92</td>
+    <td>0.91</td>
+    <td>0.91
+    </td></tr>
+    <tr bgcolor="lightgrey">
+    <td><b>Total United States</b></td>
+    <td><b>1.71</b></td>
+    <td><b>1.64</b></td>
+    <td><b>1.66</b></td>
+    <td><b>1.66</b>
+    </td></tr></tbody><tfoot></tfoot></table>
+
+    
+</body>
+</html>
