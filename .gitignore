@@ -1,11 +1,9 @@
-.env 
+.env
 
 *.pyc
-__pycache__/ 
+__pycache__/
 
 .elasticbeanstalk
-
-aws-elastic-beanstalk-cli-setup
 
 sources/
 
