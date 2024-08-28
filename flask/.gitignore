@@ -5,3 +5,4 @@
 !.elasticbeanstalk/*.global.yml
 pmapper
 sources
+.DS_Store
