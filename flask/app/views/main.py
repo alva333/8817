@@ -48,3 +48,7 @@ def list_users():
         return f'An error has occured: {str(e)}', 500
     
     
+@main_bp.route('/testdeploy', methods=['GET'])
+def testdeploy():
+    return 'New route is deployed', 200
+    
